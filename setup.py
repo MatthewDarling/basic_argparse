@@ -3,7 +3,7 @@
 setup(
     name='basic_argparse',
     version='1.0',
-    #url= insert github link?
+    url=https://github.com/MatthewDarling/basic_argparse
     py_modules=['basic_argparse'],
     include_package_data=True,
 

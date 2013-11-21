@@ -8,3 +8,11 @@ customizations.
 
 print_and_exit() is an argparse action for printing an arbitrary string -
 specifically, in this case, a program's docstring.
+
+Usage
+-----
+
+    >>> import basic_argparse
+    >>> parser = basic_argparse.init_parser("my awesome program", __version__,
+    >>>                                     __date__, __doc__)
+    >>> #note that __date__ is meant to be the date of the last update
