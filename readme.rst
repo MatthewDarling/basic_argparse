@@ -12,7 +12,9 @@ specifically, in this case, a program's docstring.
 Usage
 -----
 
+    >>> __version__ = "1.0"
+    >>> __date__ = "Date of this version's release"
+    >>> #__doc__ is your docstring, which almost every module should have
     >>> import basic_argparse
     >>> parser = basic_argparse.init_parser("my awesome program", __version__,
     >>>                                     __date__, __doc__)
-    >>> #note that __date__ is meant to be the date of the last update
